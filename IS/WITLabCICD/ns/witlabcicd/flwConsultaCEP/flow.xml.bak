@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT>main</COMMENT>
 
   <!-- nodes -->
 
@@ -1144,6 +1145,10 @@
 <MAP MODE="OUTPUT">
 </MAP>
 </INVOKE>
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT></COMMENT>
+</MAP>
 </SEQUENCE>
 
 <SEQUENCE TIMEOUT="" EXIT-ON="DONE">
